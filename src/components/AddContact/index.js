@@ -43,7 +43,7 @@ console.log(data,"hai fion")
 
   return (
     <div className="container-fluid">
-      <h1 className="text-center text-dark py-3 display-2">Add Post</h1>
+      <h1 className="text-center text-dark py-3 display-2">Add Employee</h1>
       <div className="row">
         <div className="col-md-6 p-5 mx-auto shadow">
           <form onSubmit={handleSubmit}>
@@ -78,7 +78,7 @@ console.log(data,"hai fion")
               <input
                 className="btn btn-block btn-dark"
                 type="submit"
-                value="Add Student"
+                value="Add Employee"
               />
             </div>
           </form>
